@@ -1,0 +1,82 @@
+body{
+  height:100%;
+  background:rgb(255, 252, 252) ;
+}
+.tabs{
+  position: fixed;
+  top: 0;
+  left:0;
+  width:100%;
+  height: 100%;
+  display: flex;
+}
+.tabs .tabs-header{
+  width: 150px;
+  height: 100%;
+  
+}
+.tabs .tabs-header div{
+  position: relative;
+  height: 15%;
+  border-right: 0.001em solid rgb(194, 192, 192);
+  border-bottom: 0.001em solid rgb(243, 239, 239);
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  align-items: center;
+  cursor: pointer;
+  font-family:Sans-serif;
+  
+}
+
+#xyz{
+  top:50;
+  font-family:Sans-serif;
+  font-weight: bold;
+  height:100%;
+  width:100%;
+  margin-top: 112px;
+  background:rgb(230, 226, 226)
+ 
+
+}
+
+#abc {
+  position: fixed;
+  top:250;
+  padding: 7px 0;
+  left :300;
+  width: 1000px;
+  height: 15px;
+ 
+  
+  background: rgb(255, 255, 255);
+}
+#def {
+  position: fixed;
+  top:350;
+  left:300;
+  width: 200px;
+  height: 200px;
+  padding: 10px 0;
+  text-align: center;
+  background: rgb(252, 249, 249);
+}
+#ttt{
+  position: fixed;
+  top:300;
+  right:800;
+}
+#poq{
+   position: fixed;
+   top: 150px;;
+ left:200;
+}
+
+#lesson:focus {
+  background-color: #e1deec;
+}
+  
+#xyz{
+  display: none;
+ }
